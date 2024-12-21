@@ -1,4 +1,4 @@
-acoount default
-host ???
-port ???
+account default
+host mail
+port 1025
 from "service@d-prac.test"

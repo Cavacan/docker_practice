@@ -4,13 +4,13 @@
  * connect
  */
 
-$host = '???';
-$port = '???';
-$database = '???';
+$host = 'db';
+$port = '3306';
+$database = 'event';
 $dsn = sprintf('mysql:host=%s; port=%s; dbname=%s;', $host, $port, $database);
 
-$username = '???';
-$password = '???';
+$username = 'user';
+$password = 'password';
 
 $pdo = new PDO($dsn, $username, $password);
 

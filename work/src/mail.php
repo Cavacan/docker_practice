@@ -38,13 +38,13 @@ echo "<div style='width: 40rem; margin-top: 2rem; margin-left: auto; margin-righ
  * connect
  */
 
-$host = '???';
-$port = '???';
-$database = '???';
+$host = 'db';
+$port = '3306';
+$database = 'event';
 $dsn = sprintf('mysql:host=%s; port=%s; dbname=%s;', $host, $port, $database);
 
-$username = '???';
-$password = '???';
+$username = 'user';
+$password = 'password';
 
 $pdo = new PDO($dsn, $username, $password);
 
